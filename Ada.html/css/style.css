@@ -11,7 +11,7 @@ h2{
 }
 
 .titulo-verde{
-  color:#04ff9f;
+  color:dimgray;
 }
 
 .titulo-vermelho{
@@ -23,8 +23,11 @@ h2{
 }
 
 section{
-    max-width: 60%;
-    margin:0 auto;
+  width: 100%;
+ margin:0 auto;
+}
+section section{
+  width:100%
 }
 
 h1{
@@ -50,12 +53,12 @@ ul{
    list-style-type:nome;
 }
 h2{
-  color:#2a0074;
+  color:rgb(223, 245, 245);
   font-size: 40px;
 }
 
 .titulo-verde{
-  color:#04ff9f;
+  color:#d7e5eb80;
 }
 
 .titulo-vermelho{
@@ -70,7 +73,9 @@ section{
     max-width: 60%;
     margin:0 auto;
 }
-
+section section{
+  width:100% ;
+}
 h1{
   font-size: 60px;
   font-weight: 300;
@@ -97,6 +102,40 @@ ul{
 }
 a{
   text-decoration:none;
-  color:#99FFFF;
+  color:rgb(53, 78, 78);
   font-weight:700;
+}
+.principal {
+ background-color:darksalmon; 
+  height:40px;
+  max-width: 60%;
+  margin:0 auto;
+}
+.principal a{
+  color: rgb(119, 121, 128);
+  text-decoration: underline;
+  font-weight:normal;
+}
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin:0 89;
+}
+h4{
+  font-style:oblique;
+  color: #000;
+}
+body{
+  text-align:center;
+  font-family:Open Sans,sans-serif;
+  background-color:#964b00;
+  color:#ffffff;
+  margin: 0px 0px 30px 0px;
+}
+
+button{
+ background: #f3c441;
+ border: 1px solid transparent;
+ padding: 2px 20px;
+ border-radius: 3px;
 }
